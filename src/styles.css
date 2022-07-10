@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+}
+
+.headerSection{
+   width :100%;
+   display: flex;
+   background-color:  #1565C0;
+   padding: 10px;
+}
+
+.logoSection{
+  flex: 1;
+  text-align: center;
+}
+
+.logoSection h4{
+  color: white;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.iconSection{
+  flex: 0 ;
+  margin-right: 150px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cartIcon{
+  font-size: 30px;
+  color: white;
+}
+
+.cartCount{
+  height: 23px;
+  width :23px;
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  border-radius :25px;
+  text-align: center;
+}
+
+
+
+
